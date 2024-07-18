@@ -1,6 +1,6 @@
 {
   "name": "convbox-tracking",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "files": [
     "lib"
@@ -11,7 +11,8 @@
   "exports": {
     ".": {
       "import": "./lib/index.js",
-      "require": "./lib/index.umd.cjs"
+      "require": "./lib/index.umd.cjs",
+      "types": "./lib/src/index.d.ts"
     }
   },
   "scripts": {
